@@ -16,8 +16,8 @@ const getSum = () => {
   //     b += parseInt(a[i].innerHTML);
   //   }
   document.querySelector("table").innerHTML += `
-    <tr>
-      <td >${b}</td>
+    <tr id="ans">
+      <td id="ans">${b}</td>
     </tr>
   `;
   getSumBtn.disabled = true;
