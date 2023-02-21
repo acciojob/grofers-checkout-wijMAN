@@ -17,7 +17,7 @@ const getSum = () => {
   //   }
   document.querySelector("table").innerHTML += `
     <tr id="ans">
-      <td id="ans">${b}</td>
+      <td>${b}</td>
     </tr>
   `;
   getSumBtn.disabled = true;
